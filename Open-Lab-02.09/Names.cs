@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Open_Lab_02._09
 {
@@ -6,6 +6,7 @@ namespace Open_Lab_02._09
     {
         public string ConcatName(string firstName, string lastName)
         {
+            return lastName + ", " + firstName;
             throw new NotImplementedException();
         }
     }
